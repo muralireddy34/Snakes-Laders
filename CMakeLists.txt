@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+set (CMAKE_MODULE_PATH C:/Program Files/opencv/build)
+project( Snakes-Laders )
+set (OpenCV_DIR C:/Program Files/opencv/build)
+add_executable( Snakes-Laders src/intotal.c )
+target_link_libraries( Snakes-Laders ${OpenCV_LIBS} )
